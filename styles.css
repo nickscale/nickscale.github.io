@@ -1,0 +1,144 @@
+body {
+  /* swatch https://colorhunt.co/palette/27374d526d829db2bfdde6ed */
+  background: linear-gradient(200deg, #dde6ed 0%, #006c4c 100%),
+    radial-gradient(100% 224.43% at 0% 0%, #9db2bf 0%, #27374d 100%),
+    linear-gradient(121.28deg, #dde6ed 0%, #9db2bf 100%),
+    linear-gradient(229.79deg, #27374d 0%, #dde6ed 94.19%),
+    radial-gradient(56.26% 101.79% at 50% 0%, #9db2bf 0%, #27374d 100%),
+    linear-gradient(65.05deg, #27374d 0%, #dde6ed 100%);
+  background-blend-mode: overlay, screen, color-burn, hard-light, screen, normal;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: url("./images/flocking.jpg");
+  background-size: cover;
+  padding: 50px 40px;
+  margin: 0px auto;
+  text-align: left;
+  color: #27374d;
+  box-shadow: 0 10px 15px #6666;
+}
+
+section {
+  display: inline-block;
+  padding: 40px 60px;
+  margin: 0px auto;
+  vertical-align: top;
+}
+
+article {
+  display: block;
+  background-color: #9db2bf;
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 10px solid white;
+  box-shadow: 0 0 15px #6666;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Syne", Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-weight: 150;
+  color: black;
+}
+
+nav {
+  display: block;
+  background-color: #27374d;
+  color: white;
+  padding: 20px 40px;
+}
+
+.nav-text a {
+  color: white;
+  text-decoration: none;
+  padding-inline: 0px 10px;
+}
+
+#top-nav {
+  height: 50px;
+  line-height: 50px;
+  vertical-align: baseline;
+}
+
+#bottom-nav {
+  height: 50px;
+  line-height: 50px;
+  vertical-align: baseline;
+  text-align: center;
+}
+
+.leftCol {
+  float: left;
+  max-width: 50%;
+  vertical-align: top;
+}
+
+.rightCol {
+  float: right;
+  max-width: 50%;
+  vertical-align: top;
+}
+
+.button {
+  background-color: transparent;
+  font-size: large;
+  color: #27374d;
+  margin: 60px auto;
+  padding: 10px;
+  border: 2px solid #27374d;
+}
+
+.button:hover {
+  background-color: #9db2bf;
+}
+
+#welcome {
+  background-color: #dde6ed;
+  margin: 0px;
+  padding: 20px 40px;
+  box-shadow: 0 5px 20px #6666;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+img,
+iframe {
+  max-width: 100%;
+  margin: 10px 0px;
+  box-shadow: 0 0 15px #6666;
+}
+
+.highlight {
+  font-style: italic;
+}
+
+.centered {
+  text-align: center;
+}
